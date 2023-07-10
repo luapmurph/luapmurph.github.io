@@ -7,7 +7,18 @@
   <body>
     <h1>paulmurph.com</h1>
     <p>
-      A website dedicated to bananas.
+      A website dedicated to banans.
     </p>
+    <image width="200" src="https://i5.walmartimages.com/asr/5939a6fa-a0d6-431c-88c6-b4f21608e4be.f7cd0cc487761d74c69b7731493c1581.jpeg"><br>
+    <button onclick="myFunction()">Worship banan</button>
+    <p id="worshipText">Banan has been worshiped 0 times.</p>
+    <script>
+      let worshipCounter = 0;
+      const worshipText = document.getElementById("worshipText");
+      function myFunction() {
+        worshipCounter++;
+        worshipText.innerHTML = "Banan has been worshiped " + worshipCounter + " times.";
+      }
+    </script>
   </body>
 </html>
